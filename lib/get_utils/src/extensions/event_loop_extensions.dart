@@ -1,4 +1,5 @@
 import 'dart:async';
+
 import '../../../get_core/src/get_interface.dart';
 
 extension LoopEventsExt on GetInterface {

@@ -1,4 +1,5 @@
 import 'package:flutter/scheduler.dart';
+
 import '../../get_state_manager.dart';
 
 /// Used like [SingleTickerProviderMixin] but only with Get Controllers.

@@ -4,7 +4,6 @@ import 'dart:convert';
 import 'dart:html';
 
 import '../../../get_core/get_core.dart';
-
 import 'socket_notifier.dart';
 
 enum ConnectionStatus {

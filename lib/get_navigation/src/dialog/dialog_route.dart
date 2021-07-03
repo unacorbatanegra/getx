@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+
 import '../../../get_core/get_core.dart';
 import '../../../get_instance/src/get_instance.dart';
 

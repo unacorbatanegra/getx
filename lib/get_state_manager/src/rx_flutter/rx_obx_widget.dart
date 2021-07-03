@@ -1,5 +1,7 @@
 import 'dart:async';
+
 import 'package:flutter/widgets.dart';
+
 import '../../../get_rx/src/rx_types/rx_types.dart';
 
 typedef WidgetCallback = Widget Function();

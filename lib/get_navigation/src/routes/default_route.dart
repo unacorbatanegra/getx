@@ -1,8 +1,10 @@
 import 'dart:math';
 import 'dart:ui' show lerpDouble;
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+
 import '../../../get_core/get_core.dart';
 import '../../../get_instance/get_instance.dart';
 import '../../get_navigation.dart';

@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+
 import '../../../get.dart';
 
 abstract class _RouteMiddleware {

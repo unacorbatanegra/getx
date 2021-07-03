@@ -1,5 +1,7 @@
 import 'dart:async';
+
 import 'package:flutter/widgets.dart';
+
 import 'get_state.dart';
 import 'list_notifier.dart';
 

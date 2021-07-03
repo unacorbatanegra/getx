@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../../../get_instance/src/get_instance.dart';
 import '../../../instance_manager.dart';
 import '../../get_state_manager.dart';
@@ -64,6 +65,7 @@ class GetBuilder<T extends GetxController> extends StatefulWidget {
       didChangeDependencies;
   final void Function(GetBuilder oldWidget, GetBuilderState<T> state)?
       didUpdateWidget;
+      
   final T? init;
 
   const GetBuilder({

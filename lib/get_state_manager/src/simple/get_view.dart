@@ -2,6 +2,7 @@ import 'package:flutter/widgets.dart';
 
 import '../../../instance_manager.dart';
 import '../../../utils.dart';
+import '../../get_state_manager.dart';
 import 'get_widget_cache.dart';
 
 /// GetView is a great way of quickly access your Controller
@@ -101,5 +102,28 @@ class _GetCache<S extends GetLifeCycleBase?> extends WidgetCache<GetWidget<S>> {
   @override
   Widget build(BuildContext context) {
     return widget!.build(context);
+  }
+}
+
+abstract class GetLocalView<T extends GetxController> extends StatefulWidget {
+  GetLocalView({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  _GetLocalViewState createState() => _GetLocalViewState<T>();
+
+  Widget build(BuildContext context, T controller);
+
+  T createController();
+}
+
+class _GetLocalViewState<T extends GetxController> extends State<GetLocalView> {
+  @override
+  Widget build(BuildContext context) {
+    return GetBuilder<T>(
+      init: widget.createController() as T,
+      builder: (controller) => widget.build(context, controller),
+    );
   }
 }

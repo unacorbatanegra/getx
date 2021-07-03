@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+
 import '../../../get_instance/src/lifecycle.dart';
 
 /// Unlike GetxController, which serves to control events on each of its pages,

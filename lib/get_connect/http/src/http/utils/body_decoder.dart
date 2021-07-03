@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import '../../../../../get_core/get_core.dart';
-
 import '../../request/request.dart';
 
 T? bodyDecoded<T>(Request<T> request, String stringBody, String? mimeType) {

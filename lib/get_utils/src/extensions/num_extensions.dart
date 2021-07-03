@@ -1,4 +1,5 @@
 import 'dart:async';
+
 import '../get_utils/get_utils.dart';
 
 extension GetNumUtils on num {

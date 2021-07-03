@@ -1,7 +1,7 @@
 // ignore: prefer_mixin
 import 'package:flutter/widgets.dart';
-import '../../../instance_manager.dart';
 
+import '../../../instance_manager.dart';
 import '../rx_flutter/rx_disposable.dart';
 import '../rx_flutter/rx_notifier.dart';
 import 'list_notifier.dart';
